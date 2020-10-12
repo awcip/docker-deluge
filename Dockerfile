@@ -1,4 +1,4 @@
-from linuxserver/deluge
+FROM linuxserver/deluge
 
 RUN python3 -m pip install --no-cache-dir --upgrade pip; \
     python3 -m pip install --no-cache-dir --upgrade virtualenv; \
